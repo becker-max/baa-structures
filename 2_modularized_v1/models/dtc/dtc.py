@@ -1,16 +1,13 @@
-import config
+from util import config
 
 class DTC():
 
     def __init__(self):
-        self.params = "Hyperparameters"
-        self.conn = config
+        self.config = config
+        self.params = "set Hyperparameters"
 
-    def __connect(self):
-        pass
-
-    def __disconnect(self):
-        pass
+    def get_params(self):
+        return self.params
 
     def train(self):
         print("trained DTC")
