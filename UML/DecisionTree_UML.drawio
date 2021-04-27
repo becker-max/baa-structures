@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-27T16:04:03.310Z" agent="5.0 (Windows)" etag="vUxaR4MgZ3aNwazdnJfY" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-27T16:14:40.529Z" agent="5.0 (Windows)" etag="OWjMHzSl1VD1MUcIYr7x" version="14.4.9" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
-    <mxGraphModel dx="1002" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1179" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,10 +8,10 @@
           <mxGeometry x="370" y="20" width="430" height="90" as="geometry" />
         </mxCell>
         <mxCell id="62893188c0fa7362-2" value="&lt;ul&gt;&lt;li&gt;calculate CC tables&lt;/li&gt;&lt;li&gt;termination criterion not met&lt;/li&gt;&lt;li&gt;calculate best feature and feature value to split dataset at&lt;/li&gt;&lt;li&gt;left: dataset.feature is &amp;lt;= value&lt;/li&gt;&lt;li&gt;right: dataset.feature &amp;gt; value&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=left;" parent="1" vertex="1">
-          <mxGeometry x="150" y="160" width="410" height="90" as="geometry" />
+          <mxGeometry x="150" y="160" width="430" height="90" as="geometry" />
         </mxCell>
         <mxCell id="62893188c0fa7362-3" value="&lt;ul&gt;&lt;li&gt;calculate CC tables&lt;/li&gt;&lt;li&gt;termination criterion not met&lt;/li&gt;&lt;li&gt;calculate best feature and feature value to split dataset at&lt;/li&gt;&lt;li&gt;left: dataset.feature is &amp;lt;= value&lt;/li&gt;&lt;li&gt;right: dataset.feature &amp;gt; value&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=left;" parent="1" vertex="1">
-          <mxGeometry x="690" y="160" width="400" height="90" as="geometry" />
+          <mxGeometry x="670" y="160" width="420" height="90" as="geometry" />
         </mxCell>
         <mxCell id="62893188c0fa7362-4" value="No" style="rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=none;endFill=0;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" source="62893188c0fa7362-1" target="62893188c0fa7362-3" edge="1">
           <mxGeometry x="0.2753" y="13" relative="1" as="geometry">
