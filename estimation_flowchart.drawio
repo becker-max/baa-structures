@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T15:43:10.375Z" agent="5.0 (Windows)" etag="tcTrT06mX-c-nxBCTI4i" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-20T15:46:15.530Z" agent="5.0 (Windows)" etag="SqxCFfizbFYvzSR7pEQt" version="14.6.13" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
-    <mxGraphModel dx="1002" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="691" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -180,13 +180,20 @@
         <mxCell id="JbQQHDA_vIymADXAR3bc-82" value="query= query + &quot;{feature} {operator} {threshold}&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="187.5" y="970" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="JbQQHDA_vIymADXAR3bc-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="JbQQHDA_vIymADXAR3bc-84" target="JbQQHDA_vIymADXAR3bc-2">
+        <mxCell id="JbQQHDA_vIymADXAR3bc-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="JbQQHDA_vIymADXAR3bc-103" target="JbQQHDA_vIymADXAR3bc-2">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="192.95124999999996" y="1230.12" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="195" y="1180" />
-              <mxPoint x="10" y="1180" />
+              <mxPoint x="194" y="1230" />
+              <mxPoint x="194" y="1300" />
+              <mxPoint x="10" y="1300" />
               <mxPoint x="10" y="35" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JbQQHDA_vIymADXAR3bc-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="JbQQHDA_vIymADXAR3bc-84" target="JbQQHDA_vIymADXAR3bc-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195.005" y="1210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JbQQHDA_vIymADXAR3bc-84" value="invoke node right" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
@@ -201,19 +208,32 @@
         <mxCell id="JbQQHDA_vIymADXAR3bc-86" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1" vertex="1" parent="1">
           <mxGeometry x="90" y="1030" width="95" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JbQQHDA_vIymADXAR3bc-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="JbQQHDA_vIymADXAR3bc-89" target="JbQQHDA_vIymADXAR3bc-2">
+        <mxCell id="JbQQHDA_vIymADXAR3bc-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="JbQQHDA_vIymADXAR3bc-97" target="JbQQHDA_vIymADXAR3bc-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="10" y="1140" />
+              <mxPoint x="80" y="1300" />
+              <mxPoint x="10" y="1300" />
               <mxPoint x="10" y="35" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="JbQQHDA_vIymADXAR3bc-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="JbQQHDA_vIymADXAR3bc-89" target="JbQQHDA_vIymADXAR3bc-97">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JbQQHDA_vIymADXAR3bc-89" value="invoke node left" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
           <mxGeometry x="30" y="1120" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JbQQHDA_vIymADXAR3bc-91" value="node.left =grow_tree(query)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="247.5" y="1130" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JbQQHDA_vIymADXAR3bc-97" value="query" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=0;size=0.23;shadow=1;fontFamily=Verdana;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1210" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JbQQHDA_vIymADXAR3bc-103" value="query" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=0;size=0.23;shadow=1;fontFamily=Verdana;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1210" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JbQQHDA_vIymADXAR3bc-105" value="query= query + &quot;{feature} {operator} {threshold}&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1040" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
