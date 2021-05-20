@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T15:46:15.530Z" agent="5.0 (Windows)" etag="SqxCFfizbFYvzSR7pEQt" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-20T15:46:51.200Z" agent="5.0 (Windows)" etag="xNp5G2NpUAin3nG1x_XN" version="14.6.13" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="691" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -232,7 +232,7 @@
         <mxCell id="JbQQHDA_vIymADXAR3bc-103" value="query" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=0;size=0.23;shadow=1;fontFamily=Verdana;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="160" y="1210" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="JbQQHDA_vIymADXAR3bc-105" value="query= query + &quot;{feature} {operator} {threshold}&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="JbQQHDA_vIymADXAR3bc-105" value="with concurrent.futures.ThreadPoolExecutor() as executor:&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;node.left = executor.submit(self.__grow_tree, X_left).result()&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;node.right = executor.submit(self.__grow_tree, X_right).result()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="185" y="1040" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
